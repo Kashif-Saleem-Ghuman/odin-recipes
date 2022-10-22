@@ -1,0 +1,124 @@
+.main{
+    height: 80px;
+    /* padding: 0 16px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: space-between; */
+    background-color: greenyellow;
+    width: 100%;
+}
+#bar-icon{
+
+    background-color: red;
+
+    width: 40px;
+    height: 29%;
+
+}
+#bars{
+    background-color: blue;
+    /* font-size: larger; */
+}
+#youtube-icon{
+    background-color: pink;
+    height: 71%;
+    width: 150px;
+    
+}
+.empty-block{
+    background-color: rgb(245, 61, 91);
+    width: 200px;
+    height: 50%;
+}
+#search-input{
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    width: 40%;
+    height: 50%;
+}
+#search-input input{
+    height: 85%;
+    width: 100%;
+    align-items: center;
+}
+
+#search-icon{
+    background-color: blue;
+    height: 39px;
+    width: 39px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+#mic{
+    background-color: white;
+    height: 38px;
+    width: 39px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+#create{
+    background-color: yellow;
+    height: 39px;
+    width: 60px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#notifications{
+    background-color: rgb(104, 53, 53);
+    height: 39px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#account{
+    background-color: rgb(216, 137, 137);
+    height: 39px;
+    width: 60px;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#video{
+    background-color: thistle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    
+    
+}
+#side-bar{
+
+    background-color: #b88484;
+   
+    overflow: auto; 
+    width: 30%;
+    display: block;
+    
+}
+#side-bar img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    float: left;
+    
+}
+.video-thumb-nails{
+    background-color: rgb(226, 43, 43);
+    display: flex;
+    width: 100%;
+}
